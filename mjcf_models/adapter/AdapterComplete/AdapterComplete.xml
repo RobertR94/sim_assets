@@ -1,0 +1,85 @@
+<mujoco model="AdapterComplete">
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh"/>
+    </default>
+  </default>
+  <asset>
+    <material name="Opaque(255,255,255)" specular="0.5" shininess="0.5" rgba="1.000000 1.000000 1.000000 1.0"/>
+    <material name="Opaque(178,178,178)" specular="0.5" shininess="0.5" rgba="0.698039 0.698039 0.698039 1.0"/>
+    <material name="Opaque(202,209,238)" specular="0.5" shininess="0.5" rgba="0.792157 0.819608 0.933333 1.0"/>
+    <material name="Opaque(255,0,0)" specular="0.5" shininess="0.5" rgba="1.000000 0.000000 0.000000 1.0"/>
+    <material name="Opaque(255,142,255)" specular="0.5" shininess="0.5" rgba="1.000000 0.556863 1.000000 1.0"/>
+    <material name="Opaque(0,0,255)" specular="0.5" shininess="0.5" rgba="0.000000 0.000000 1.000000 1.0"/>
+    <material name="Opaque(186,91,14)" specular="0.5" shininess="0.5" rgba="0.729412 0.356863 0.054902 1.0"/>
+    <material name="Opaque(64,64,64)" specular="0.5" shininess="0.5" rgba="0.250980 0.250980 0.250980 1.0"/>
+    <material name="Opaque(111,196,255)" specular="0.5" shininess="0.5" rgba="0.435294 0.768627 1.000000 1.0"/>
+    <material name="Opaque(0,192,0)" specular="0.5" shininess="0.5" rgba="0.000000 0.752941 0.000000 1.0"/>
+    <material name="Opaque(192,192,192)" specular="0.5" shininess="0.5" rgba="0.752941 0.752941 0.752941 1.0"/>
+    <material name="Opaque(165,158,150)" specular="0.5" shininess="0.5" rgba="0.647059 0.619608 0.588235 1.0"/>
+    <material name="Opaque(203,210,239)" specular="0.5" shininess="0.5" rgba="0.796078 0.823529 0.937255 1.0"/>
+    <material name="Opaque(180,180,180)" specular="0.5" shininess="0.5" rgba="0.705882 0.705882 0.705882 1.0"/>
+    <material name="Opaque(73,157,218)" specular="0.5" shininess="0.5" rgba="0.286275 0.615686 0.854902 1.0"/>
+    <material name="Opaque(244,242,245)" specular="0.5" shininess="0.5" rgba="0.956863 0.949020 0.960784 1.0"/>
+    <material name="Steel_-_Satin" specular="0.5" shininess="0.5" rgba="0.019608 0.019608 0.019608 1.0"/>
+    <mesh file="AdapterComplete_0.obj"/>
+    <mesh file="AdapterComplete_1.obj"/>
+    <mesh file="AdapterComplete_2.obj"/>
+    <mesh file="AdapterComplete_3.obj"/>
+    <mesh file="AdapterComplete_4.obj"/>
+    <mesh file="AdapterComplete_5.obj"/>
+    <mesh file="AdapterComplete_6.obj"/>
+    <mesh file="AdapterComplete_7.obj"/>
+    <mesh file="AdapterComplete_8.obj"/>
+    <mesh file="AdapterComplete_9.obj"/>
+    <mesh file="AdapterComplete_10.obj"/>
+    <mesh file="AdapterComplete_11.obj"/>
+    <mesh file="AdapterComplete_12.obj"/>
+    <mesh file="AdapterComplete_13.obj"/>
+    <mesh file="AdapterComplete_14.obj"/>
+    <mesh file="AdapterComplete_15.obj"/>
+    <mesh file="AdapterComplete_16.obj"/>
+  </asset>
+  <worldbody>
+    <body name="AdapterComplete">
+      <geom mesh="AdapterComplete_0" material="Steel_-_Satin" class="visual"/>
+      <geom mesh="AdapterComplete_1" material="Opaque(244,242,245)" class="visual"/>
+      <geom mesh="AdapterComplete_2" material="Opaque(73,157,218)" class="visual"/>
+      <geom mesh="AdapterComplete_3" material="Opaque(180,180,180)" class="visual"/>
+      <geom mesh="AdapterComplete_4" material="Opaque(203,210,239)" class="visual"/>
+      <geom mesh="AdapterComplete_5" material="Opaque(165,158,150)" class="visual"/>
+      <geom mesh="AdapterComplete_6" material="Opaque(192,192,192)" class="visual"/>
+      <geom mesh="AdapterComplete_7" material="Opaque(0,192,0)" class="visual"/>
+      <geom mesh="AdapterComplete_8" material="Opaque(111,196,255)" class="visual"/>
+      <geom mesh="AdapterComplete_9" material="Opaque(64,64,64)" class="visual"/>
+      <geom mesh="AdapterComplete_10" material="Opaque(186,91,14)" class="visual"/>
+      <geom mesh="AdapterComplete_11" material="Opaque(0,0,255)" class="visual"/>
+      <geom mesh="AdapterComplete_12" material="Opaque(255,142,255)" class="visual"/>
+      <geom mesh="AdapterComplete_13" material="Opaque(255,0,0)" class="visual"/>
+      <geom mesh="AdapterComplete_14" material="Opaque(202,209,238)" class="visual"/>
+      <geom mesh="AdapterComplete_15" material="Opaque(178,178,178)" class="visual"/>
+      <geom mesh="AdapterComplete_16" material="Opaque(255,255,255)" class="visual"/>
+      <geom mesh="AdapterComplete_0" class="collision"/>
+      <geom mesh="AdapterComplete_1" class="collision"/>
+      <geom mesh="AdapterComplete_2" class="collision"/>
+      <geom mesh="AdapterComplete_3" class="collision"/>
+      <geom mesh="AdapterComplete_4" class="collision"/>
+      <geom mesh="AdapterComplete_5" class="collision"/>
+      <geom mesh="AdapterComplete_6" class="collision"/>
+      <geom mesh="AdapterComplete_7" class="collision"/>
+      <geom mesh="AdapterComplete_8" class="collision"/>
+      <geom mesh="AdapterComplete_9" class="collision"/>
+      <geom mesh="AdapterComplete_10" class="collision"/>
+      <geom mesh="AdapterComplete_11" class="collision"/>
+      <geom mesh="AdapterComplete_12" class="collision"/>
+      <geom mesh="AdapterComplete_13" class="collision"/>
+      <geom mesh="AdapterComplete_14" class="collision"/>
+      <geom mesh="AdapterComplete_15" class="collision"/>
+      <geom mesh="AdapterComplete_16" class="collision"/>
+      <site name="tool_mount" pos="0 0 0.04" size="0.01" rgba="1 0 0 1" />
+    </body>
+  </worldbody>
+</mujoco>
