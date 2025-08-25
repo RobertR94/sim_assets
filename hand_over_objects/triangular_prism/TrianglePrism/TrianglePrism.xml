@@ -1,0 +1,32 @@
+<mujoco model="TrianglePrism">
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh" friction="0.8 0.006 0.0002"/>
+    </default>
+  </default>
+
+  <asset>
+    <material name="steel_sat" specular="0.5" shininess="0.5" rgba="0.63 0.63 0.63 1"/>
+    <mesh name="TrianglePrism" file="TrianglePrism.obj"/>
+    <!-- If your file is in millimeters, add: scale="0.001 0.001 0.001" -->
+  </asset>
+
+  <worldbody>
+    <!-- Body origin = COM -->
+    <body name="TrianglePrism" pos="0 0 0">
+      <freejoint name="triangle_prism_free_joint"/>
+      <!-- Mass & inertia about COM, oriented along principal axes -->
+      <inertial mass="0.42" diaginertia="0.0018 0.0021 0.0015" quat="0.98 0.05 -0.01 0.17"/>
+
+      <!-- Shift geoms so they line up with the COM-based body frame -->
+      <geom name="tri_visual" class="visual"  material="steel_sat"
+            mesh="TrianglePrism" pos="-0.012 0.003 -0.018"/>
+      <geom name="tri_collision" class="collision"
+            mesh="TrianglePrism" pos="-0.012 0.003 -0.018"/>
+    </body>
+  </worldbody>
+</mujoco>
+
