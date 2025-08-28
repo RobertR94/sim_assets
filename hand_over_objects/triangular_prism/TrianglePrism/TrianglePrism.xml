@@ -17,9 +17,8 @@
   <worldbody>
     <!-- Body origin = COM -->
     <body name="TrianglePrism" pos="0 0 0">
-      <freejoint name="triangle_prism_free_joint"/>
       <!-- Mass & inertia about COM, oriented along principal axes -->
-      <inertial mass="0.42" diaginertia="0.0018 0.0021 0.0015" quat="0.98 0.05 -0.01 0.17"/>
+      <inertial  pos="0 0 0" mass="0.42" diaginertia="0.0018 0.0021 0.0015" quat="0.98 0.05 -0.01 0.17"/>
 
       <!-- Shift geoms so they line up with the COM-based body frame -->
       <geom name="tri_visual" class="visual"  material="steel_sat"

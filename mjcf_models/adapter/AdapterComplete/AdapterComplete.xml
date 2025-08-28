@@ -79,7 +79,6 @@
       <geom mesh="AdapterComplete_14" class="collision"/>
       <geom mesh="AdapterComplete_15" class="collision"/>
       <geom mesh="AdapterComplete_16" class="collision"/>
-      <site name="tool_mount" pos="0 0 0.04" size="0.01" rgba="1 0 0 1" />
     </body>
   </worldbody>
 </mujoco>
